@@ -16,3 +16,7 @@
 - [x] Einstellungen-Screen implementieren
 - [x] Animationen und Haptic Feedback hinzufügen
 - [x] Finaler Checkpoint erstellen
+- [x] app.config.ts für APK-Build mit BLE-Berechtigungen konfigurieren
+- [x] eas.json für Expo Cloud Build erstellen
+- [x] APK-Build-Anleitung (APK_BUILD_GUIDE.md) schreiben
+- [x] build-apk.sh Skript für lokalen Build erstellen
