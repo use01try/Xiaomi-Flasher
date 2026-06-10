@@ -1,14 +1,17 @@
 /** @type {const} */
 const themeColors = {
-  primary: { light: '#0a7ea4', dark: '#0a7ea4' },
-  background: { light: '#ffffff', dark: '#151718' },
-  surface: { light: '#f5f5f5', dark: '#1e2022' },
-  foreground: { light: '#11181C', dark: '#ECEDEE' },
-  muted: { light: '#687076', dark: '#9BA1A6' },
-  border: { light: '#E5E7EB', dark: '#334155' },
-  success: { light: '#22C55E', dark: '#4ADE80' },
-  warning: { light: '#F59E0B', dark: '#FBBF24' },
-  error: { light: '#EF4444', dark: '#F87171' },
+  primary: { light: '#00D4FF', dark: '#00D4FF' },
+  background: { light: '#0A0E1A', dark: '#0A0E1A' },
+  surface: { light: '#111827', dark: '#111827' },
+  foreground: { light: '#E8F4FD', dark: '#E8F4FD' },
+  muted: { light: '#6B8CAE', dark: '#6B8CAE' },
+  border: { light: '#1E3A5F', dark: '#1E3A5F' },
+  success: { light: '#00E676', dark: '#00E676' },
+  warning: { light: '#FFB300', dark: '#FFB300' },
+  error: { light: '#FF1744', dark: '#FF1744' },
+  tint: { light: '#00D4FF', dark: '#00D4FF' },
+  surfaceElevated: { light: '#1A2235', dark: '#1A2235' },
+  accent: { light: '#FF6B35', dark: '#FF6B35' },
 };
 
 module.exports = { themeColors };
