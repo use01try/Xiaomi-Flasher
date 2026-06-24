@@ -7,12 +7,12 @@ type IconMapping = Record<string, ComponentProps<typeof MaterialIcons>["name"]>;
 type IconSymbolName = keyof typeof MAPPING;
 
 const MAPPING = {
-  // Navigation
   "house.fill": "home",
   "paperplane.fill": "send",
   "chevron.left.forwardslash.chevron.right": "code",
   "chevron.right": "chevron-right",
   "chevron.left": "chevron-left",
+  "bolt.fill": "flash-on",
   // BLE / Bluetooth
   "bluetooth": "bluetooth",
   "bluetooth.fill": "bluetooth",
@@ -21,7 +21,6 @@ const MAPPING = {
   // Dashboard
   "speedometer": "speed",
   "gauge": "speed",
-  "bolt.fill": "bolt",
   "thermometer": "thermostat",
   "battery.100": "battery-full",
   "battery.75": "battery-5-bar",
@@ -85,6 +84,5 @@ export function IconSymbol({
   style?: StyleProp<TextStyle>;
   weight?: SymbolWeight;
 }) {
-  const mappedName = MAPPING[name] ?? "help-outline";
-  return <MaterialIcons color={color} size={size} name={mappedName} style={style} />;
+  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
 }

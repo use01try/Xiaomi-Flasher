@@ -67,10 +67,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="flasher"
+        options={{
+          title: "Flasher",
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="bolt.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="settings"
         options={{
           title: "Einstellungen",
-          tabBarIcon: ({ color }) => <IconSymbol size={26} name="gearshape.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="gearshape.fill" color={color} />,
         }}
       />
     </Tabs>
